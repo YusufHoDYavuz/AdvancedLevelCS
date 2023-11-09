@@ -1,0 +1,5 @@
+1- Var, Object ve Dynamic: her türlü değişken türünü tutmanı sağlar
+var = hangi değişkeni atarsak o değişkeni alır
+object = var gibi istediğin değişkeni tutabilirsin fakat farklı bir değişkene eşitleyince dönüştürme yapman gerekir intNumber.ToString(); gibi
+dynamic
+*NOT:* dynamic runtime içinde hata verir ama object direkt solution'da hata verir. mesela dönüştürme yapmadan dynamic kullanılabilir ama object kullanılamaz. 
