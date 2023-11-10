@@ -25,7 +25,8 @@ public: her classtan ulaşılabilir
 private: sadece o classtan erişilebilir
 internal: aynı assembly yani projedeki her yerden ulaşılabilir. Başka assembly'lerden erişilemez.
 
-
+8- Constructor (Kurucu): Class'lar ile kullanılır
+İçinde oluşturulduğu anda ilk çalışan metoddur.
 
 
 
