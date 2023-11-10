@@ -15,6 +15,9 @@ parametrede verilecek değerin ne kadar fazla olduğunu bilmiyorsan bu kullanıl
 çok boyutlu diziler kullanılamaz
 eğer paramdan farklı yine paramter ekleyeceksen ilk o gelir params en sona eklenir çünkü paramın nerede biteceği belli değildir sonu yok.
 
+5- Const: sabit değer demektir.
+const float = 3.14f; gibi kullanılır. Bir defa set edildiği için daha değiştirilemez.
+
 
 
 
