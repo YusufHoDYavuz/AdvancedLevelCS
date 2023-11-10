@@ -3,3 +3,52 @@ var = hangi değişkeni atarsak o değişkeni alır
 object = var gibi istediğin değişkeni tutabilirsin fakat farklı bir değişkene eşitleyince dönüştürme yapman gerekir intNumber.ToString(); gibi
 dynamic
 *NOT:* dynamic runtime içinde hata verir ama object direkt solution'da hata verir. mesela dönüştürme yapmadan dynamic kullanılabilir ama object kullanılamaz. 
+
+2- CODE
+
+3- Lists:
+listName.Remove(8) = listedeki 8 sayısını direkt siler fakat RemoveAt kullanırsan indekstekini siler
+BinarySearch() = yazdığın değişkenin indexi kaçsa sana onu verir
+
+4- Params:
+parametrede verilecek değerin ne kadar fazla olduğunu bilmiyorsan bu kullanılır.
+çok boyutlu diziler kullanılamaz
+eğer paramdan farklı yine paramter ekleyeceksen ilk o gelir params en sona eklenir çünkü paramın nerede biteceği belli değildir sonu yok.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
