@@ -18,7 +18,7 @@ eğer paramdan farklı yine paramter ekleyeceksen ilk o gelir params en sona ekl
 5- Const: sabit değer demektir.
 const float = 3.14f; gibi kullanılır. Bir defa set edildiği için daha değiştirilemez.
 
-
+6- Class: Aynı kod bütünlüğünün yazıldığı alandır
 
 
 
