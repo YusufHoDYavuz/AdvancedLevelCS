@@ -20,6 +20,36 @@ const float = 3.14f; gibi kullanılır. Bir defa set edildiği için daha deği�
 
 6- Class: Aynı kod bütünlüğünün yazıldığı alandır
 
+7- Access Modifiers (erişim belirleyiciler):
+public: her classtan ulaşılabilir
+private: sadece o classtan erişilebilir
+internal: aynı assembly yani projedeki her yerden ulaşılabilir. Başka assembly'lerden erişilemez.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
