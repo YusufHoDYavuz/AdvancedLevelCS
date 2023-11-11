@@ -57,7 +57,8 @@ bunu kullanmanın sebebi base class boş construct yapısını oynatır eğer ya
 Protected: Kendisinden türetilmiş olan class'larda kullanılabilir sadece.
 Protected internal: aynı projelerde olmasa bile türetilmiş class'lardan erişilebilir.
 
-
+15- This: bulunduğu class'ı işaret eder.
+* public A(int x, int y, int z):this(x) verilirse eğer parametresi x olan constructor'da çalışacaktır. çünkü ilk çağırdığımızda 3 değer veriyoruz fakat x başta eşitleniyor o yüzden bu kullanılır.
 
 
 
