@@ -64,6 +64,10 @@ Protected internal: aynı projelerde olmasa bile türetilmiş class'lardan eriş
 Direkt çağıralamaz ilk başta sınıfın oluşturulması gerekiyor
 mesela const'ta değeri direkt vermen gerekir ama readonly'de istersen consrtuctor'da verebilirsin.
 
+17- Değer ve Referans Tipleri: stack / heap
+değer tipleri: stacki işaret eder. int float double uint struct etc...
+referans tipleri: stack'den heapi gösterir. class,object,array,interface,delegate,string
+* stack değerlerini farklı classtan çağırıp değişiklik yaparak yazdırırsan değişimi göremezsin fakat heap ile yaparsan görebilirsin çünkü değişkeni üstüne yazılıp tutulur.
 
 
 
