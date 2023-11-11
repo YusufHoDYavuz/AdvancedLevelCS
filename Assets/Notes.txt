@@ -51,7 +51,7 @@ Base Class: Humonoid class'ı.
 * Örneğin A base classın var ve b devired kalıtım yapılmış class'ın var ikisinde de aynı fonksiyon adı var fakat sen b classın'Da bir fonksiyon çağırırken hangisini seçecek
 -kafası karışıyor bu yüzden base. yaparsan ana classı seçer eğer düz yazarsan olduğun class'takini çağırır.
 * constructor ile kullanımında public A(int x):base(x){} gibi kullanılır öncelik vermek için veya hangisini çalıştıracağını anlatmak için
-
+bunu kullanmanın sebebi base class boş construct yapısını oynatır eğer yanını bunu yazarsan aynı türden parametreleri oynatır.
 
 
 
