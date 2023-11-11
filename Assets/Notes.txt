@@ -69,8 +69,10 @@ değer tipleri: stacki işaret eder. int float double uint struct etc...
 referans tipleri: stack'den heapi gösterir. class,object,array,interface,delegate,string
 * stack değerlerini farklı classtan çağırıp değişiklik yaparak yazdırırsan değişimi göremezsin fakat heap ile yaparsan görebilirsin çünkü değişkeni üstüne yazılıp tutulur.
 
-
-
+18- Ref and Out: bir değişken kopyalanarak gelip değerini değiştirip göremiyorsan o zaman kullanılır
+ref: direkt objeye vermek istediğin değeri yazacağın zaman verirsin bunu stack veri yani değer tipleriyle kullanırsın genelde
+out: bir fonksiyondan örneğin bir değeri return etmeden dışarı çıkarmada kullanılır
+* prop'lar ile birlikte kullanılamaz/ paramtre ve çağıralacak yerde hangisini kullanıysan 2 yerdede başına onu yazman gerekir.
 
 
 
