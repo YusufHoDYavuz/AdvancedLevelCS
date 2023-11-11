@@ -47,7 +47,10 @@ Derived Class: türettiğin insan zombi sınıfı olur
 Base Class: Humonoid class'ı.
 *Her zaman ilk base class'tan itibaren kod okunmaya başlar. Ve C# çoklu kalıtım desteklemek yani , koyup bir base class daha ekleymezsin.
 
-
+13- Base Anahtar Kelimesi:
+* Örneğin A base classın var ve b devired kalıtım yapılmış class'ın var ikisinde de aynı fonksiyon adı var fakat sen b classın'Da bir fonksiyon çağırırken hangisini seçecek
+-kafası karışıyor bu yüzden base. yaparsan ana classı seçer eğer düz yazarsan olduğun class'takini çağırır.
+* constructor ile kullanımında public A(int x):base(x){} gibi kullanılır öncelik vermek için veya hangisini çalıştıracağını anlatmak için
 
 
 
