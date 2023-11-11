@@ -31,6 +31,29 @@ internal: aynı assembly yani projedeki her yerden ulaşılabilir. Başka assemb
 9- Overload: aşırı yükleme yani farklı parametre şekilleriyle kullanılabilir.
 aynı şekilde sınıfları constructorlar ile overload işlemi yapabilirsin.
 
+10- Enum: 
+bunların eşitliğini kontrol ederken Equals kullanmak daha iyi == yerine.
+sen atama yapmasan bile listelerdeki gibi hepsinin index değeri vardır.
+Enum. diyerek çeşitli işlemler yaptırabilirsin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
