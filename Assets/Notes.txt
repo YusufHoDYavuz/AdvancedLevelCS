@@ -36,6 +36,12 @@ bunların eşitliğini kontrol ederken Equals kullanmak daha iyi == yerine.
 sen atama yapmasan bile listelerdeki gibi hepsinin index değeri vardır.
 Enum. diyerek çeşitli işlemler yaptırabilirsin.
 
+11- Encapsullation (kapsülleme): Dışarıya bilgi vermeden veriye çekme ve atama yapılır.
+Field: sınıf veya yapı içinde tanımlanan değişkenlerdir.
+*propfull ve prop diye kısayolları vardır oluşturmak için.
+*oluşturulan property'de harfler fonksiyon yapısındaki gibi olmalıdır.
+
+
 
 
 
