@@ -60,8 +60,9 @@ Protected internal: aynı projelerde olmasa bile türetilmiş class'lardan eriş
 15- This: bulunduğu class'ı işaret eder.
 * public A(int x, int y, int z):this(x) verilirse eğer parametresi x olan constructor'da çalışacaktır. çünkü ilk çağırdığımızda 3 değer veriyoruz fakat x başta eşitleniyor o yüzden bu kullanılır.
 
-
-
+16- Readonly: sadece okunabilir demek ve daha sonra değiştirelemez sadece okunabilir
+Direkt çağıralamaz ilk başta sınıfın oluşturulması gerekiyor
+mesela const'ta değeri direkt vermen gerekir ama readonly'de istersen consrtuctor'da verebilirsin.
 
 
 
