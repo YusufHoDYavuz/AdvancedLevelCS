@@ -53,7 +53,9 @@ Base Class: Humonoid class'ı.
 * constructor ile kullanımında public A(int x):base(x){} gibi kullanılır öncelik vermek için veya hangisini çalıştıracağını anlatmak için
 bunu kullanmanın sebebi base class boş construct yapısını oynatır eğer yanını bunu yazarsan aynı türden parametreleri oynatır.
 
-
+14- Protected - protected internal:
+Protected: Kendisinden türetilmiş olan class'larda kullanılabilir sadece.
+Protected internal: aynı projelerde olmasa bile türetilmiş class'lardan erişilebilir.
 
 
 
