@@ -41,8 +41,11 @@ Field: sınıf veya yapı içinde tanımlanan değişkenlerdir.
 *propfull ve prop diye kısayolları vardır oluşturmak için.
 *oluşturulan property'de harfler fonksiyon yapısındaki gibi olmalıdır.
 
-
-
+12- Inheritance (kalıtım-miras): Farklı bir class'tan başka bir class üretmektir. iç içe class denilebilir.
+Eğer farklı 2 class ortak bilgilere sahip olma durumu varsa bu kullanılır örneğin insan ve zombi yürür bu yüzden humonoid ana class oluşturulabilir.
+Derived Class: türettiğin insan zombi sınıfı olur
+Base Class: Humonoid class'ı.
+*Her zaman ilk base class'tan itibaren kod okunmaya başlar. Ve C# çoklu kalıtım desteklemek yani , koyup bir base class daha ekleymezsin.
 
 
 
