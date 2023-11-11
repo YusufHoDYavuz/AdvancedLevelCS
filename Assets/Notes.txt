@@ -28,6 +28,9 @@ internal: aynı assembly yani projedeki her yerden ulaşılabilir. Başka assemb
 8- Constructor (Kurucu): Class'lar ile kullanılır
 İçinde oluşturulduğu anda ilk çalışan metoddur.
 
+9- Overload: aşırı yükleme yani farklı parametre şekilleriyle kullanılabilir.
+aynı şekilde sınıfları constructorlar ile overload işlemi yapabilirsin.
+
 
 
 
