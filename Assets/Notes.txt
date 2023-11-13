@@ -80,6 +80,8 @@ Static: bunu yaptığın zaman nesneden bağımsız olur ve her yerden çağrıl
 *Constructor ile işlem yaptırırsan o kayıtlı kalır
 *static class'larda kalıtım olmaz ve static class içindeki her şey static olmalıdır. Constructor'da public vs yazamazsın static olur sadece
 
+20- New anahtarı: 
+*Bu derived class'ın ve base classta aynı değişken veya obje varsa derived class'ta konulur ki bizim yaptığımız belli etmek için. Çünkü override etmemiş oluyoruz yeni bir fonksiyon gibi.
 
 
 
