@@ -89,8 +89,8 @@ GC: stack'taki değerler (örneğin A test = new A(); ) heap'e işaret ettiği i
 *GC'da generation vardır yani stack'tan işaret verilmemişse (bir değere eşitlenmemişse) onları siler ama hala bağı olan varsa onlar jenerasyon atlar ve 0 -1 -2 diye gider.
 Destructor: Nesne silinmeden önce çalışır ve sonra nesne silinir. ~MyClass(){ //Code } şeklinde kullanılır.
 
-
-
+22- CODE! Exception (istisnalar) ve Throw Anahtar Kelimesi:
+*Exeption hata mesajıdır throw <degiskenAdi>; ile kullanılır. Bir sürü farklı exeption vardır.
 
 
 
