@@ -83,10 +83,11 @@ Static: bunu yaptığın zaman nesneden bağımsız olur ve her yerden çağrıl
 20- New anahtarı: 
 *Bu derived class'ın ve base classta aynı değişken veya obje varsa derived class'ta konulur ki bizim yaptığımız belli etmek için. Çünkü override etmemiş oluyoruz yeni bir fonksiyon gibi.
 
-
-
-
-
+21- Garbage Collection and Destructor (yıkıcı metod)
+GC: stack'taki değerler (örneğin A test = new A(); ) heap'e işaret ettiği için yani new A(); olmadığı için burayı etkilemez fakat new A(); yani işaret edilmiyorsa bir şeye eşitlenmemişse (gereksizleri) onu siler. GC.Collect(); ile siler.
+*Eğer heap çok doluysa OutOfMemoryException (hafıza dolu) hatası alırsın ve kötü bir kod demektir bu.
+*GC'da generation vardır yani stack'tan işaret verilmemişse (bir değere eşitlenmemişse) onları siler ama hala bağı olan varsa onlar jenerasyon atlar ve 0 -1 -2 diye gider.
+Destructor: Nesne silinmeden önce çalışır ve sonra nesne silinir. ~MyClass(){ //Code } şeklinde kullanılır.
 
 
 
