@@ -74,7 +74,11 @@ ref: direkt objeye vermek istediğin değeri yazacağın zaman verirsin bunu sta
 out: bir fonksiyondan örneğin bir değeri return etmeden dışarı çıkarmada kullanılır
 * prop'lar ile birlikte kullanılamaz/ paramtre ve çağıralacak yerde hangisini kullanıysan 2 yerdede başına onu yazman gerekir.
 
-
+19- Static and Non-Static: 
+Static: bunu yaptığın zaman nesneden bağımsız olur ve her yerden çağrılabilir. Nesnenin içinden çağıramazsın
+*Nesneden bağımsız olduğu için hangi değeri atarsan her yerde o geçerli olur.
+*Constructor ile işlem yaptırırsan o kayıtlı kalır
+*static class'larda kalıtım olmaz ve static class içindeki her şey static olmalıdır. Constructor'da public vs yazamazsın static olur sadece
 
 
 
