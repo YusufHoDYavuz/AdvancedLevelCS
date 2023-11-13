@@ -92,6 +92,13 @@ Destructor: Nesne silinmeden önce çalışır ve sonra nesne silinir. ~MyClass(
 22- CODE! Exception (istisnalar) ve Throw Anahtar Kelimesi:
 *Exeption hata mesajıdır throw <degiskenAdi>; ile kullanılır. Bir sürü farklı exeption vardır.
 
+23- Exception Handling & Try Catch finally (hata ayıklama): kodları deneyerek hata varmı yok mu bakar.
+* Try'la birlikte catch vs kullanılması gerek catch içinde aynı şekil. Örneğin catch'te 5/0 işlemi yaptın ama program hata döndürür bunu catch ile yakalayıp debug yazdırabilirsin.
+catch if gibi kontrol edilerek örneğin int istedin string yazdı catch(FormatException ex) ile birden fazla catch açıp kontrol yaparak istediğin catch'in çalışmasını sağlayabilirsin. ve catch içindeki ex ilede ek özelliklerini kullanabilirsin. örn. ex.StackTree hatanın path ve satırını söyler.
+yukarıdaki örnek için catch(Exception ex) diyerek konsola ex.Message yazdırırsan zaten hatanın nereden kaynaklandığını söyler.
+Inner Exception: alt hatadır yani eğer try'daki yer çalışmıyorsa exception'da inner olan çalışır ve catch'e gider.
+Finally: Try'da çalışsa catch'de çalışsa bu her zaman çalışır kullanmak zorunlu değildir. Örn. SQL bağlantısı yaptın internette sorun var catch çalıştır sonra adamı finally ile programdan at.
+
 
 
 
