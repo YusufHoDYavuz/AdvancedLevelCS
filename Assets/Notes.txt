@@ -99,7 +99,9 @@ yukarıdaki örnek için catch(Exception ex) diyerek konsola ex.Message yazdır�
 Inner Exception: alt hatadır yani eğer try'daki yer çalışmıyorsa exception'da inner olan çalışır ve catch'e gider.
 Finally: Try'da çalışsa catch'de çalışsa bu her zaman çalışır kullanmak zorunlu değildir. Örn. SQL bağlantısı yaptın internette sorun var catch çalıştır sonra adamı finally ile programdan at.
 
-
+24- CODE! Extension Methods (genişletme metotları): 
+Örneğin string bir degiskenim olsun stringVar.ToUpper(); yerine stringVar.BuyukHarfler(); tarzında değiştirip eklemek.
+*Bunu oluştururken static class içinde olmalı değişkenleriyle birlikte.
 
 
 
