@@ -127,6 +127,10 @@ Eğer farklı değişkenler versen bile o 1 tanedir fakat farklı yerlerde kulla
 * Eğer herhangi bir yerdens static class olarak veya sealed olarak belirlersen diğerinede otomatik yükleniyor
 * Fonksiyonlarda ise kapsülleme gibi yeni fonksiyon açıp oradan çağırarak kullanılabilir.
 
+30-  Dispose Metodu (elden çıkarma - ortadan kaldırma) IDisposable.Dispose hazır interface yapısıdır :
+
+
+
 
 
 
