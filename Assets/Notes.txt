@@ -106,7 +106,8 @@ Finally: Try'da çalışsa catch'de çalışsa bu her zaman çalışır kullanma
 25- CODE! Operator Overloading:
 *Örneğin 2 tane string ya da interger'ı + ile toplayabilirsin fakat class'ı toplayamazsın. Onu yapmanı sağlıyor
 
-
+26- Method Override (virtual - override) metot ezme:
+* kalıtım yapıp eğer aynı metotu kullanırsan new eklemek zorundasın ama base class'a virtual ekleyip kalıtım yaptığında override edersen oradaki fonksiyonun içini yok sayar
 
 
 
