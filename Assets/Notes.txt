@@ -117,6 +117,10 @@ dynamic = runtime (overriding)
 * A m = new B(); eğer A base class'ın ve B kalıtım yaptığın class ise B üzerinden A'daki değere ulaşabilirsin.
 * <BaseClass> a(değişken) = new <DerivedClass>(); şeklinde kullanılır.
 
+28- Sealed (mühürlü):
+*Class'larda kullanırsan inhertance yani class türetemezsin.
+*Property'ler ile kullanacaksan override etmen gerekir.
+* Eğer iç içe 2 kalıtım yapıldıysa fonksiyonda override'dan önce sealed yaparsan sonraki inheritance yapılan class'larda kullanmazsın.
 
 
 
