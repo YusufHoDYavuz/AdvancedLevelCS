@@ -122,7 +122,10 @@ dynamic = runtime (overriding)
 *Property'ler ile kullanacaksan override etmen gerekir.
 * Eğer iç içe 2 kalıtım yapıldıysa fonksiyonda override'dan önce sealed yaparsan sonraki inheritance yapılan class'larda kullanmazsın.
 
-
+29- Partial (parçalı-bölünmüş): Kod okunabilirliği için aslında. 2 tane aynı isimde class'ın başına bunu ekleyerek farklı yerlerde kulalnabilirsin.
+Eğer farklı değişkenler versen bile o 1 tanedir fakat farklı yerlerde kullandığın için partial ekliyorsun.
+* Eğer herhangi bir yerdens static class olarak veya sealed olarak belirlersen diğerinede otomatik yükleniyor
+* Fonksiyonlarda ise kapsülleme gibi yeni fonksiyon açıp oradan çağırarak kullanılabilir.
 
 
 
