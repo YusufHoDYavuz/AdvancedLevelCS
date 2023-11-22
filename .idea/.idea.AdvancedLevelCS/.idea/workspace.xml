@@ -7,6 +7,11 @@
     <list default="true" id="1cd1bafe-a394-4524-8596-62115fe2e790" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdvancedLevelCS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdvancedLevelCS/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Phase/99- Empty 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Phase/99- Empty 3/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Phase/99- Empty 3/Scenes/99- Exam.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Phase/99- Empty 3/Scenes/99- Exam.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Phase/99- Empty 3/Scripts.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Phase/24- Extension/Scripts/ExamExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Phase/25- Operator Overload/Scripts/ExamOperatorOverload.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Phase/4- Params/Scripts/ExampleParams.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Phase/8- Constructor/Scripts/ExamConstructor1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -100,7 +107,8 @@
       <workItem from="1699639401505" duration="3452000" />
       <workItem from="1699707808312" duration="4095000" />
       <workItem from="1699895714164" duration="5716000" />
-      <workItem from="1700071266438" duration="1068000" />
+      <workItem from="1700071266438" duration="1388000" />
+      <workItem from="1700672913203" duration="1609000" />
     </task>
     <servers />
   </component>

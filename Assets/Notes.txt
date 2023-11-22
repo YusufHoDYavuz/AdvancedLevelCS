@@ -103,6 +103,8 @@ Finally: Try'da çalışsa catch'de çalışsa bu her zaman çalışır kullanma
 Örneğin string bir degiskenim olsun stringVar.ToUpper(); yerine stringVar.BuyukHarfler(); tarzında değiştirip eklemek.
 *Bunu oluştururken static class içinde olmalı değişkenleriyle birlikte.
 
+25- CODE! Operator Overloading:
+*Örneğin 2 tane string ya da interger'ı + ile toplayabilirsin fakat class'ı toplayamazsın. Onu yapmanı sağlıyor
 
 
 
