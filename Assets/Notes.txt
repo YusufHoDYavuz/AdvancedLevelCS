@@ -108,11 +108,14 @@ Finally: Try'da çalışsa catch'de çalışsa bu her zaman çalışır kullanma
 
 26- Method Override (virtual - override) metot ezme:
 * kalıtım yapıp eğer aynı metotu kullanırsan new eklemek zorundasın ama base class'a virtual ekleyip kalıtım yaptığında override edersen oradaki fonksiyonun içini yok sayar
+* eğer kalıtım yapıp aynı metodu kullanırsan ve new anahtar sözcüğünü verirsen direkt base class kullanılır.
+* Bunları property'ler ile de kullanabilirsin.
 
-
-
-
-
+27- Polymorphism: Derived class üzerinden ana class'a ulaşmak. Yani bir class'ın başka classtaki özelliklerini taşıması ve onu kullanmamız
+static = compile time (overloading): Base classtan türemiş olan örneğin C class'ın base class özelliğini taşıması.
+dynamic = runtime (overriding)
+* A m = new B(); eğer A base class'ın ve B kalıtım yaptığın class ise B üzerinden A'daki değere ulaşabilirsin.
+* <BaseClass> a(değişken) = new <DerivedClass>(); şeklinde kullanılır.
 
 
 
