@@ -131,7 +131,12 @@ Eğer farklı değişkenler versen bile o 1 tanedir fakat farklı yerlerde kulla
 
 31- Using Anahtar Kelimesi: dahil etmektir. Kütüphaneleri direkt ekleyerek referans kullanmadan metot vs çağırma yapabilirsin.
 
-
+32- Struct: 
+*Class ile çok karıştırlır farkları vardır.
+*Struct = value stack(büyük veri taşınamaz demek) 16 byte altındaki veriler için. Verilerin net sonradan değişkenlik göstermemesi gerekir.
+Default olarak constructor'u yoktur parametre alarak oluşturulabilir. Herhangi bir değişkene default değer atanamaz.
+MyStruct isim; olursa örneğin constructor çalışmaz ve içindeki değerler direkt kullanılamaz ama class gibi new ile oluşturulursa yapılabilir.
+*Class = ref heap
 
 
 
