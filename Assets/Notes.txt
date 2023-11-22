@@ -129,7 +129,7 @@ Eğer farklı değişkenler versen bile o 1 tanedir fakat farklı yerlerde kulla
 
 30-  Dispose Metodu (elden çıkarma - ortadan kaldırma) IDisposable.Dispose hazır interface yapısıdır :
 
-
+31- Using Anahtar Kelimesi: dahil etmektir. Kütüphaneleri direkt ekleyerek referans kullanmadan metot vs çağırma yapabilirsin.
 
 
 
