@@ -149,7 +149,8 @@ MyStruct isim; olursa örneğin constructor çalışmaz ve içindeki değerler d
 Abstract- constructor kullanılabilir. fonksiyon içlerinde bir şeyler yaptırabilirsin. Erişim belirleyicisi kullanılabilir. Override edilmelidir.
 Interface- constructor kullanılamaz. Her şeyin soyut olması gerek {} açamazsın. Varsayılan public olduğu için erişim belirleyicisi kullanamazsın. Direkt uygulanır.
 
-
+35- Operators:
+?? işareti soluna bakar eğer null ise sağdaki işlemi yaptırır. döngü şeklinde gidebilir.
 
 
 
