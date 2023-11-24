@@ -155,6 +155,9 @@ Interface- constructor kullanılamaz. Her şeyin soyut olması gerek {} açamazs
 36- Nested Class (iç içe sınıflar): kod okunabilirliği ve kapsüllemede kullanılır.
 class Damar { public class Kan { } } şeklinde kullanılır. Kapsüllemeye benzer ama bunda direkt class içine class oluşturuyorsun türetmek değil.
 
+37- Global anahtar kelimesi:
+*Eğer bir üst tarafta boşlukta vs aynı class'ta senin namepsace içinde aynısı varsa eğer üstekini kullanmak istiyorsan global:: şeklinde kullanılır.
+
 
 
 
