@@ -152,6 +152,32 @@ Interface- constructor kullanılamaz. Her şeyin soyut olması gerek {} açamazs
 35- Operators:
 ?? işareti soluna bakar eğer null ise sağdaki işlemi yaptırır. döngü şeklinde gidebilir.
 
+36- Nested Class (iç içe sınıflar): kod okunabilirliği ve kapsüllemede kullanılır.
+class Damar { public class Kan { } } şeklinde kullanılır. Kapsüllemeye benzer ama bunda direkt class içine class oluşturuyorsun türetmek değil.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
