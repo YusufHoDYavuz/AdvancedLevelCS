@@ -158,7 +158,7 @@ class Damar { public class Kan { } } şeklinde kullanılır. Kapsüllemeye benze
 37- Global anahtar kelimesi:
 *Eğer bir üst tarafta boşlukta vs aynı class'ta senin namepsace içinde aynısı varsa eğer üstekini kullanmak istiyorsan global:: şeklinde kullanılır.
 
-
+38-  Generic Tipler: Bunlar cast işleminden kuratarır hangi değeri verirsen onu alır.
 
 
 
