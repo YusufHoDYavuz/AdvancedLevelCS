@@ -145,6 +145,9 @@ MyStruct isim; olursa örneğin constructor çalışmaz ve içindeki değerler d
 34- Interface:
 *Bir şeyi çoklu yapı ile kullanıdığında interface tanımlanır ve hepsine kendi başına işlem yaptırabilirsin.
 
+*Abstract ve Interface Farkları:
+Abstract- constructor kullanılabilir. fonksiyon içlerinde bir şeyler yaptırabilirsin. Erişim belirleyicisi kullanılabilir. Override edilmelidir.
+Interface- constructor kullanılamaz. Her şeyin soyut olması gerek {} açamazsın. Varsayılan public olduğu için erişim belirleyicisi kullanamazsın. Direkt uygulanır.
 
 
 
