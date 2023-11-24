@@ -160,7 +160,8 @@ class Damar { public class Kan { } } şeklinde kullanılır. Kapsüllemeye benze
 
 38-  Generic Tipler: Bunlar cast işleminden kuratarır hangi değeri verirsen onu alır.
 
-
+39- Delegate: Çoklu metod çağırma olarak kullanılır.
+*public delegate void MyDelegate(string message); şeklinde kullanılır.
 
 
 
