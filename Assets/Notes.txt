@@ -158,11 +158,14 @@ class Damar { public class Kan { } } şeklinde kullanılır. Kapsüllemeye benze
 37- Global anahtar kelimesi:
 *Eğer bir üst tarafta boşlukta vs aynı class'ta senin namepsace içinde aynısı varsa eğer üstekini kullanmak istiyorsan global:: şeklinde kullanılır.
 
-38-  Generic Tipler: Bunlar cast işleminden kuratarır hangi değeri verirsen onu alır.
+38- Generic Tipler: Bunlar cast işleminden kuratarır hangi değeri verirsen onu alır.
 
 39- Delegate: Çoklu metod çağırma olarak kullanılır.
 *public delegate void MyDelegate(string message); şeklinde kullanılır.
 
+40- Events:
+İçlerinde add remove kullanabilirsin tıpku propertylerdeki gibi event çalışınca ve çıkarılınca çalışaack gibi.
+Eventhandler: sender ve everntargs alıyor. sender gönderen eventargs ise içinde verileri değerleri tutan yer oluyor.
 
 
 
