@@ -142,7 +142,8 @@ MyStruct isim; olursa örneğin constructor çalışmaz ve içindeki değerler d
 *abstract'lar interface'e benzer yapı olarak sadece. Yani içinde oluşturulan fonksiyonların derived edilen class'larda kullanılma zorunluluğu vardır.
 *abstract ile nesne üretilemez referans alınabilir. İçindeki değere polymorphism ile ulaşabilirsin.
 
-
+34- Interface:
+*Bir şeyi çoklu yapı ile kullanıdığında interface tanımlanır ve hepsine kendi başına işlem yaptırabilirsin.
 
 
 
